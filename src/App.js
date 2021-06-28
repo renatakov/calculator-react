@@ -1,17 +1,12 @@
-import React, {Component} from 'react';
-import Calculator from './components/Calculator';
-import NumberProvider from './components/NumberProvider';
+import React from "react";
 
-class App extends Component {
-  render() {
-    return(
-      <>
-  <NumberProvider>
-    <Calculator />
-  </NumberProvider>
-      </>
-    );
-  }
-};
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+      </header>
+    </div>
+  );
+}
 
 export default App;
