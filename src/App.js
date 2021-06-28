@@ -127,7 +127,7 @@ function App() {
           9
         </div>
         <div className='btn orange' onClick={operatorType}>
-          X
+          x
         </div>
         <div className='btn' onClick={inputNum}>
           4
