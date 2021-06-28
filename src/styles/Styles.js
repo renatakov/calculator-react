@@ -1,9 +1,6 @@
-//  If you would like to use the same fonts you can import the following into your public/index.html file.
-//  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet" />
-
 import styled from 'styled-components';
 
-export const CalculatorStyles = styled.div`
+const CalculatorStyles = styled.div`
   background-color: #4abdac;
   max-width: 100%;
   height: 100vh;
@@ -52,6 +49,8 @@ export const CalculatorStyles = styled.div`
   }
 `;
 
+export default CalculatorStyles;
+
 export const DisplayStyles = styled.div`
   display: grid;
   grid-template-rows: 90px 50px;
@@ -79,3 +78,4 @@ export const DisplayStyles = styled.div`
     margin: 5px 0;
   }
 `;
+

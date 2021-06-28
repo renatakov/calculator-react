@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import NumberButton from './NumberButton';
 import FunctionButton from './FunctionButton';
 import ClearButton from './ClearButton';
@@ -6,9 +6,12 @@ import Display from './Display';
 import EqualButton from './EqualButton';
 import BackButton from './BackButton';
 import NegativeButton from './NegativeButton';
-import { CalculatorStyles } from '../styles/Styles';
+import CalculatorStyles from '../styles/Styles';
 
-const Calculator = () => (
+class Calculator extends Component {
+  render() {
+    return(
+      <>
   <CalculatorStyles>
     <div className='display'>
       <h1>CALC-U-LATER</h1>
@@ -38,6 +41,10 @@ const Calculator = () => (
       <EqualButton />
     </div>
   </CalculatorStyles>
-);
+
+      </>
+    );
+  }
+};
 
 export default Calculator;
