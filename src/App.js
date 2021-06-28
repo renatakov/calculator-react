@@ -88,9 +88,9 @@ function App() {
     setInput("0");
   };
   return (
-    <div className='container'>
-      <div className='wrapper'>
-        <div className='screen'>
+    <div className="container">
+      <div className="wrapper">
+        <div className="screen">
           {input !== "" || input === "0" ? (
             <NumberFormat
               value={input}
@@ -105,61 +105,61 @@ function App() {
             />
           )}
         </div>
-        <div className='btn light-gray' onClick={reset}>
+        <div className="btn light-gray" onClick={reset}>
           AC
         </div>
-        <div className='btn light-gray' onClick={percent}>
+        <div className="btn light-gray" onClick={percent}>
           %
         </div>
-        <div className='btn light-gray' onClick={minusPlus}>
+        <div className="btn light-gray" onClick={minusPlus}>
           +/-
         </div>
-        <div className='btn orange' onClick={operatorType}>
+        <div className="btn orange" onClick={operatorType}>
           /
         </div>
-        <div className='btn' onClick={inputNum}>
+        <div className="btn" onClick={inputNum}>
           7
         </div>
-        <div className='btn' onClick={inputNum}>
+        <div className="btn" onClick={inputNum}>
           8
         </div>
-        <div className='btn' onClick={inputNum}>
+        <div className="btn" onClick={inputNum}>
           9
         </div>
-        <div className='btn orange' onClick={operatorType}>
-          x
+        <div className="btn orange" onClick={operatorType}>
+          X
         </div>
-        <div className='btn' onClick={inputNum}>
+        <div className="btn" onClick={inputNum}>
           4
         </div>
-        <div className='btn' onClick={inputNum}>
+        <div className="btn" onClick={inputNum}>
           5
         </div>
-        <div className='btn' onClick={inputNum}>
+        <div className="btn" onClick={inputNum}>
           6
         </div>
-        <div className='btn orange' onClick={operatorType}>
+        <div className="btn orange" onClick={operatorType}>
           +
         </div>
-        <div className='btn' onClick={inputNum}>
+        <div className="btn" onClick={inputNum}>
           1
         </div>
-        <div className='btn' onClick={inputNum}>
+        <div className="btn" onClick={inputNum}>
           2
         </div>
-        <div className='btn' onClick={inputNum}>
+        <div className="btn" onClick={inputNum}>
           3
         </div>
-        <div className='btn orange' onClick={operatorType}>
+        <div className="btn orange" onClick={operatorType}>
           -
         </div>
-        <div className='btn zero' onClick={inputNum}>
+        <div className="btn zero" onClick={inputNum}>
           0
         </div>
-        <div className='btn' onClick={inputNum}>
+        <div className="btn" onClick={inputNum}>
           .
         </div>
-        <div className='btn' onClick={equals}>
+        <div className="btn" onClick={equals}>
           =
         </div>
       </div>
